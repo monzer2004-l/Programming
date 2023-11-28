@@ -1,0 +1,12 @@
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.login.resources
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.splach.resources
+D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Main.resources
