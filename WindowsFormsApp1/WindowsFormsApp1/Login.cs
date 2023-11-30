@@ -19,7 +19,12 @@ namespace WindowsFormsApp1
 
         private void txt_catogry_account_TextChanged(object sender, EventArgs e)
         {
+            
+        }
 
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
 }

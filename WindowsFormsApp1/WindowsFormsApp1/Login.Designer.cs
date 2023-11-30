@@ -41,10 +41,11 @@
             this.txt_ID = new System.Windows.Forms.TextBox();
             this.txt_Name = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txt_Email = new System.Windows.Forms.TextBox();
-            this.txt_Password = new System.Windows.Forms.TextBox();
-            this.check_mgr = new System.Windows.Forms.CheckBox();
             this.check_emp = new System.Windows.Forms.CheckBox();
+            this.check_mgr = new System.Windows.Forms.CheckBox();
+            this.txt_Password = new System.Windows.Forms.TextBox();
+            this.txt_Email = new System.Windows.Forms.TextBox();
+            this.btn_login = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -116,7 +117,7 @@
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(560, 273);
+            this.label6.Location = new System.Drawing.Point(566, 273);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 43);
             this.label6.TabIndex = 16;
@@ -127,7 +128,7 @@
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(536, 214);
+            this.label7.Location = new System.Drawing.Point(542, 214);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(101, 43);
             this.label7.TabIndex = 17;
@@ -138,7 +139,7 @@
             // 
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(444, 340);
+            this.label8.Location = new System.Drawing.Point(450, 340);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(193, 43);
             this.label8.TabIndex = 18;
@@ -149,7 +150,7 @@
             // 
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(511, 402);
+            this.label9.Location = new System.Drawing.Point(517, 402);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(126, 43);
             this.label9.TabIndex = 19;
@@ -158,31 +159,32 @@
             // 
             // txt_ID
             // 
-            this.txt_ID.BackColor = System.Drawing.SystemColors.Info;
             this.txt_ID.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_ID.Location = new System.Drawing.Point(198, 214);
             this.txt_ID.Multiline = true;
             this.txt_ID.Name = "txt_ID";
+            this.txt_ID.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txt_ID.Size = new System.Drawing.Size(240, 37);
             this.txt_ID.TabIndex = 20;
             this.txt_ID.TextChanged += new System.EventHandler(this.txt_catogry_account_TextChanged);
             // 
             // txt_Name
             // 
-            this.txt_Name.BackColor = System.Drawing.SystemColors.Info;
             this.txt_Name.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Name.Location = new System.Drawing.Point(198, 279);
             this.txt_Name.Multiline = true;
             this.txt_Name.Name = "txt_Name";
+            this.txt_Name.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txt_Name.Size = new System.Drawing.Size(240, 37);
             this.txt_Name.TabIndex = 21;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.btn_login);
             this.panel2.Controls.Add(this.check_emp);
             this.panel2.Controls.Add(this.check_mgr);
             this.panel2.Controls.Add(this.txt_Password);
@@ -199,41 +201,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(700, 617);
             this.panel2.TabIndex = 22;
-            // 
-            // txt_Email
-            // 
-            this.txt_Email.BackColor = System.Drawing.SystemColors.Info;
-            this.txt_Email.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Email.Location = new System.Drawing.Point(198, 346);
-            this.txt_Email.Multiline = true;
-            this.txt_Email.Name = "txt_Email";
-            this.txt_Email.Size = new System.Drawing.Size(240, 37);
-            this.txt_Email.TabIndex = 22;
-            // 
-            // txt_Password
-            // 
-            this.txt_Password.BackColor = System.Drawing.SystemColors.Info;
-            this.txt_Password.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Password.Location = new System.Drawing.Point(198, 408);
-            this.txt_Password.Multiline = true;
-            this.txt_Password.Name = "txt_Password";
-            this.txt_Password.Size = new System.Drawing.Size(240, 37);
-            this.txt_Password.TabIndex = 23;
-            // 
-            // check_mgr
-            // 
-            this.check_mgr.AutoSize = true;
-            this.check_mgr.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.check_mgr.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.check_mgr.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.check_mgr.Location = new System.Drawing.Point(360, 153);
-            this.check_mgr.Name = "check_mgr";
-            this.check_mgr.Size = new System.Drawing.Size(78, 34);
-            this.check_mgr.TabIndex = 24;
-            this.check_mgr.Text = "مدير";
-            this.check_mgr.UseVisualStyleBackColor = true;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // check_emp
             // 
@@ -241,7 +209,7 @@
             this.check_emp.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.check_emp.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.check_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.check_emp.Location = new System.Drawing.Point(215, 153);
+            this.check_emp.Location = new System.Drawing.Point(208, 156);
             this.check_emp.Name = "check_emp";
             this.check_emp.Size = new System.Drawing.Size(94, 34);
             this.check_emp.TabIndex = 25;
@@ -249,18 +217,66 @@
             this.check_emp.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.check_emp.UseVisualStyleBackColor = true;
             // 
+            // check_mgr
+            // 
+            this.check_mgr.AutoSize = true;
+            this.check_mgr.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.check_mgr.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.check_mgr.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.check_mgr.Location = new System.Drawing.Point(360, 156);
+            this.check_mgr.Name = "check_mgr";
+            this.check_mgr.Size = new System.Drawing.Size(78, 34);
+            this.check_mgr.TabIndex = 24;
+            this.check_mgr.Text = "مدير";
+            this.check_mgr.UseVisualStyleBackColor = true;
+            // 
+            // txt_Password
+            // 
+            this.txt_Password.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Password.Location = new System.Drawing.Point(198, 408);
+            this.txt_Password.Multiline = true;
+            this.txt_Password.Name = "txt_Password";
+            this.txt_Password.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_Password.Size = new System.Drawing.Size(240, 37);
+            this.txt_Password.TabIndex = 23;
+            // 
+            // txt_Email
+            // 
+            this.txt_Email.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Email.Location = new System.Drawing.Point(198, 346);
+            this.txt_Email.Multiline = true;
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txt_Email.Size = new System.Drawing.Size(240, 37);
+            this.txt_Email.TabIndex = 22;
+            // 
+            // btn_login
+            // 
+            this.btn_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_login.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_login.Location = new System.Drawing.Point(228, 471);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(181, 55);
+            this.btn_login.TabIndex = 26;
+            this.btn_login.Text = "تسجيل الدخول";
+            this.btn_login.UseVisualStyleBackColor = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1052, 759);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -288,5 +304,6 @@
         private System.Windows.Forms.CheckBox check_emp;
         private System.Windows.Forms.CheckBox check_mgr;
         private System.Windows.Forms.TextBox txt_Password;
+        private System.Windows.Forms.Button btn_login;
     }
 }
