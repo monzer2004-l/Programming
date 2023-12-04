@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.myprogress = new Guna.UI2.WinForms.Guna2ProgressBar();
+            this.onehundred = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label4
@@ -71,7 +72,7 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 50;
+            this.timer1.Interval = 40;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // myprogress
@@ -85,12 +86,22 @@
             this.myprogress.Text = "guna2ProgressBar1";
             this.myprogress.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             // 
+            // onehundred
+            // 
+            this.onehundred.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onehundred.Location = new System.Drawing.Point(690, 343);
+            this.onehundred.Name = "onehundred";
+            this.onehundred.Size = new System.Drawing.Size(100, 27);
+            this.onehundred.TabIndex = 12;
+            this.onehundred.Text = "%";
+            // 
             // splach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1052, 759);
+            this.Controls.Add(this.onehundred);
             this.Controls.Add(this.myprogress);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -108,6 +119,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2ProgressBar myprogress;
+        private System.Windows.Forms.Label onehundred;
     }
 }
 

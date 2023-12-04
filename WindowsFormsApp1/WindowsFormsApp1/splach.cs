@@ -21,6 +21,7 @@ namespace WindowsFormsApp1
         {
             startpoint += 1;
             myprogress.Value = startpoint;
+            onehundred.Text = "%" + startpoint;
 
             if (myprogress.Value == 100)
             {
