@@ -51,5 +51,12 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btn_prodacts_Click(object sender, EventArgs e)
+        {
+            var frm = new prodects();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
