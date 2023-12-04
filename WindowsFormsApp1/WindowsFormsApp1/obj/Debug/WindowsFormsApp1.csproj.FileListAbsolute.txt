@@ -10,3 +10,18 @@ D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Deb
 D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.login.resources
 D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.splach.resources
 D:\My_project\Tcc\Advanced_Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Main.resources
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Login.resources
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Main.resources
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.splach.resources
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Guna.UI2.dll
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.prodects.resources
+C:\Users\vision\Desktop\University\Second Year\First term\Projects\Programming\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

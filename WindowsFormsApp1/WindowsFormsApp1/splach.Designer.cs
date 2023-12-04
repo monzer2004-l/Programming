@@ -29,22 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.myprogress = new System.Windows.Forms.ProgressBar();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.myprogress = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.SuspendLayout();
-            // 
-            // myprogress
-            // 
-            this.myprogress.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.myprogress.ForeColor = System.Drawing.Color.Transparent;
-            this.myprogress.Location = new System.Drawing.Point(368, 373);
-            this.myprogress.Name = "myprogress";
-            this.myprogress.Size = new System.Drawing.Size(304, 14);
-            this.myprogress.TabIndex = 9;
-            this.myprogress.Click += new System.EventHandler(this.myprogress_Click);
             // 
             // label4
             // 
@@ -84,6 +74,17 @@
             this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // myprogress
+            // 
+            this.myprogress.Location = new System.Drawing.Point(313, 359);
+            this.myprogress.Name = "myprogress";
+            this.myprogress.ProgressColor = System.Drawing.Color.Red;
+            this.myprogress.ProgressColor2 = System.Drawing.Color.Red;
+            this.myprogress.Size = new System.Drawing.Size(371, 11);
+            this.myprogress.TabIndex = 11;
+            this.myprogress.Text = "guna2ProgressBar1";
+            this.myprogress.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            // 
             // splach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -102,12 +103,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ProgressBar myprogress;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
+        private Guna.UI2.WinForms.Guna2ProgressBar myprogress;
     }
 }
 
