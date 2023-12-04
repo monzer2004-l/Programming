@@ -39,13 +39,13 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txt_ID = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_Name = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_Email = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txt_Password = new Guna.UI2.WinForms.Guna2TextBox();
-            this.btn_login = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
             this.chec_emp = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.guna2RadioButton1 = new Guna.UI2.WinForms.Guna2RadioButton();
+            this.btn_login = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.txt_Password = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_Email = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_Name = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_ID = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -93,6 +93,7 @@
             // 
             // label3
             // 
+            this.label3.AllowDrop = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(75, 152);
@@ -128,7 +129,7 @@
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(579, 214);
+            this.label7.Location = new System.Drawing.Point(579, 210);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(101, 43);
             this.label7.TabIndex = 17;
@@ -139,7 +140,7 @@
             // 
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(487, 340);
+            this.label8.Location = new System.Drawing.Point(487, 336);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(193, 43);
             this.label8.TabIndex = 18;
@@ -150,7 +151,7 @@
             // 
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(554, 402);
+            this.label9.Location = new System.Drawing.Point(554, 399);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(126, 43);
             this.label9.TabIndex = 19;
@@ -180,6 +181,144 @@
             this.panel2.TabIndex = 22;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // chec_emp
+            // 
+            this.chec_emp.AutoSize = true;
+            this.chec_emp.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.chec_emp.CheckedState.BorderThickness = 0;
+            this.chec_emp.CheckedState.FillColor = System.Drawing.Color.DarkRed;
+            this.chec_emp.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.chec_emp.CheckedState.InnerOffset = -6;
+            this.chec_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.chec_emp.ForeColor = System.Drawing.Color.Black;
+            this.chec_emp.Location = new System.Drawing.Point(235, 153);
+            this.chec_emp.Name = "chec_emp";
+            this.chec_emp.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.chec_emp.Size = new System.Drawing.Size(84, 33);
+            this.chec_emp.TabIndex = 33;
+            this.chec_emp.Text = "موظف";
+            this.chec_emp.UncheckedState.BorderColor = System.Drawing.Color.DarkRed;
+            this.chec_emp.UncheckedState.BorderThickness = 2;
+            this.chec_emp.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.chec_emp.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // guna2RadioButton1
+            // 
+            this.guna2RadioButton1.AutoSize = true;
+            this.guna2RadioButton1.CheckedState.BorderColor = System.Drawing.Color.White;
+            this.guna2RadioButton1.CheckedState.BorderThickness = 0;
+            this.guna2RadioButton1.CheckedState.FillColor = System.Drawing.Color.DarkRed;
+            this.guna2RadioButton1.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.guna2RadioButton1.CheckedState.InnerOffset = -6;
+            this.guna2RadioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
+            this.guna2RadioButton1.ForeColor = System.Drawing.Color.Black;
+            this.guna2RadioButton1.Location = new System.Drawing.Point(395, 153);
+            this.guna2RadioButton1.Name = "guna2RadioButton1";
+            this.guna2RadioButton1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.guna2RadioButton1.Size = new System.Drawing.Size(68, 33);
+            this.guna2RadioButton1.TabIndex = 32;
+            this.guna2RadioButton1.Text = "مدير";
+            this.guna2RadioButton1.UncheckedState.BorderColor = System.Drawing.Color.DarkRed;
+            this.guna2RadioButton1.UncheckedState.BorderThickness = 2;
+            this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            // 
+            // btn_login
+            // 
+            this.btn_login.BorderRadius = 20;
+            this.btn_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_login.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_login.FillColor = System.Drawing.Color.Firebrick;
+            this.btn_login.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.btn_login.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_login.ForeColor = System.Drawing.Color.White;
+            this.btn_login.Location = new System.Drawing.Point(259, 477);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(180, 45);
+            this.btn_login.TabIndex = 31;
+            this.btn_login.Text = "تسجيل الدخول";
+            // 
+            // txt_Password
+            // 
+            this.txt_Password.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Password.BorderRadius = 20;
+            this.txt_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Password.DefaultText = "";
+            this.txt_Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_Password.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_Password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_Password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_Password.FillColor = System.Drawing.Color.Silver;
+            this.txt_Password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_Password.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_Password.Location = new System.Drawing.Point(235, 410);
+            this.txt_Password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_Password.Name = "txt_Password";
+            this.txt_Password.PasswordChar = '\0';
+            this.txt_Password.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Password.PlaceholderText = "";
+            this.txt_Password.SelectedText = "";
+            this.txt_Password.Size = new System.Drawing.Size(229, 48);
+            this.txt_Password.TabIndex = 30;
+            this.txt_Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txt_Email
+            // 
+            this.txt_Email.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Email.BorderRadius = 20;
+            this.txt_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Email.DefaultText = "";
+            this.txt_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_Email.FillColor = System.Drawing.Color.Silver;
+            this.txt_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_Email.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_Email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_Email.Location = new System.Drawing.Point(234, 343);
+            this.txt_Email.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.PasswordChar = '\0';
+            this.txt_Email.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Email.PlaceholderText = "";
+            this.txt_Email.SelectedText = "";
+            this.txt_Email.Size = new System.Drawing.Size(229, 48);
+            this.txt_Email.TabIndex = 29;
+            this.txt_Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txt_Name
+            // 
+            this.txt_Name.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Name.BorderRadius = 20;
+            this.txt_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_Name.DefaultText = "";
+            this.txt_Name.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_Name.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_Name.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_Name.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_Name.FillColor = System.Drawing.Color.Silver;
+            this.txt_Name.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_Name.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Name.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_Name.Location = new System.Drawing.Point(235, 276);
+            this.txt_Name.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_Name.Name = "txt_Name";
+            this.txt_Name.PasswordChar = '\0';
+            this.txt_Name.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.txt_Name.PlaceholderText = "";
+            this.txt_Name.SelectedText = "";
+            this.txt_Name.Size = new System.Drawing.Size(229, 48);
+            this.txt_Name.TabIndex = 28;
+            this.txt_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // txt_ID
             // 
             this.txt_ID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
@@ -205,144 +344,6 @@
             this.txt_ID.Size = new System.Drawing.Size(229, 48);
             this.txt_ID.TabIndex = 27;
             this.txt_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txt_Name
-            // 
-            this.txt_Name.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Name.BorderRadius = 20;
-            this.txt_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_Name.DefaultText = "";
-            this.txt_Name.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_Name.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_Name.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_Name.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_Name.FillColor = System.Drawing.Color.Silver;
-            this.txt_Name.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_Name.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_Name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Name.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_Name.Location = new System.Drawing.Point(235, 273);
-            this.txt_Name.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt_Name.Name = "txt_Name";
-            this.txt_Name.PasswordChar = '\0';
-            this.txt_Name.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Name.PlaceholderText = "";
-            this.txt_Name.SelectedText = "";
-            this.txt_Name.Size = new System.Drawing.Size(229, 48);
-            this.txt_Name.TabIndex = 28;
-            this.txt_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txt_Email
-            // 
-            this.txt_Email.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Email.BorderRadius = 20;
-            this.txt_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_Email.DefaultText = "";
-            this.txt_Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_Email.FillColor = System.Drawing.Color.Silver;
-            this.txt_Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_Email.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_Email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_Email.Location = new System.Drawing.Point(234, 340);
-            this.txt_Email.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt_Email.Name = "txt_Email";
-            this.txt_Email.PasswordChar = '\0';
-            this.txt_Email.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Email.PlaceholderText = "";
-            this.txt_Email.SelectedText = "";
-            this.txt_Email.Size = new System.Drawing.Size(229, 48);
-            this.txt_Email.TabIndex = 29;
-            this.txt_Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txt_Password
-            // 
-            this.txt_Password.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Password.BorderRadius = 20;
-            this.txt_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txt_Password.DefaultText = "";
-            this.txt_Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txt_Password.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txt_Password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_Password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txt_Password.FillColor = System.Drawing.Color.Silver;
-            this.txt_Password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_Password.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txt_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_Password.Location = new System.Drawing.Point(235, 402);
-            this.txt_Password.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txt_Password.Name = "txt_Password";
-            this.txt_Password.PasswordChar = '\0';
-            this.txt_Password.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.txt_Password.PlaceholderText = "";
-            this.txt_Password.SelectedText = "";
-            this.txt_Password.Size = new System.Drawing.Size(229, 48);
-            this.txt_Password.TabIndex = 30;
-            this.txt_Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // btn_login
-            // 
-            this.btn_login.BorderRadius = 20;
-            this.btn_login.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_login.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_login.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_login.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_login.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_login.FillColor = System.Drawing.Color.Firebrick;
-            this.btn_login.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.btn_login.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_login.ForeColor = System.Drawing.Color.White;
-            this.btn_login.Location = new System.Drawing.Point(259, 479);
-            this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(180, 45);
-            this.btn_login.TabIndex = 31;
-            this.btn_login.Text = "تسجيل الدخول";
-            // 
-            // guna2RadioButton1
-            // 
-            this.guna2RadioButton1.AutoSize = true;
-            this.guna2RadioButton1.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.guna2RadioButton1.CheckedState.BorderThickness = 0;
-            this.guna2RadioButton1.CheckedState.FillColor = System.Drawing.Color.DarkRed;
-            this.guna2RadioButton1.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.guna2RadioButton1.CheckedState.InnerOffset = -6;
-            this.guna2RadioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.guna2RadioButton1.ForeColor = System.Drawing.Color.Black;
-            this.guna2RadioButton1.Location = new System.Drawing.Point(395, 153);
-            this.guna2RadioButton1.Name = "guna2RadioButton1";
-            this.guna2RadioButton1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.guna2RadioButton1.Size = new System.Drawing.Size(68, 33);
-            this.guna2RadioButton1.TabIndex = 32;
-            this.guna2RadioButton1.Text = "مدير";
-            this.guna2RadioButton1.UncheckedState.BorderColor = System.Drawing.Color.DarkRed;
-            this.guna2RadioButton1.UncheckedState.BorderThickness = 2;
-            this.guna2RadioButton1.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2RadioButton1.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
-            // 
-            // chec_emp
-            // 
-            this.chec_emp.AutoSize = true;
-            this.chec_emp.CheckedState.BorderColor = System.Drawing.Color.White;
-            this.chec_emp.CheckedState.BorderThickness = 0;
-            this.chec_emp.CheckedState.FillColor = System.Drawing.Color.DarkRed;
-            this.chec_emp.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
-            this.chec_emp.CheckedState.InnerOffset = -6;
-            this.chec_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F);
-            this.chec_emp.ForeColor = System.Drawing.Color.Black;
-            this.chec_emp.Location = new System.Drawing.Point(235, 153);
-            this.chec_emp.Name = "chec_emp";
-            this.chec_emp.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.chec_emp.Size = new System.Drawing.Size(84, 33);
-            this.chec_emp.TabIndex = 33;
-            this.chec_emp.Text = "موظف";
-            this.chec_emp.UncheckedState.BorderColor = System.Drawing.Color.DarkRed;
-            this.chec_emp.UncheckedState.BorderThickness = 2;
-            this.chec_emp.UncheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.chec_emp.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
             // 
             // Login
             // 
