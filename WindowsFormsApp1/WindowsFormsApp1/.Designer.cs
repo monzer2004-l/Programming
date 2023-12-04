@@ -95,6 +95,7 @@
             this.btn_prodacts.Text = "المنتجات";
             this.btn_prodacts.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_prodacts.UseVisualStyleBackColor = true;
+            this.btn_prodacts.Click += new System.EventHandler(this.btn_prodacts_Click);
             // 
             // btn_categor
             // 
