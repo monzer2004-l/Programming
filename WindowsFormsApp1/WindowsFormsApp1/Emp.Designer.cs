@@ -44,6 +44,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_home = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -55,10 +56,10 @@
             this.btn_Update.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Update.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Update.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Update.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_Update.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.btn_Update.Font = new System.Drawing.Font("Segoe UI", 13.8F);
             this.btn_Update.ForeColor = System.Drawing.Color.White;
-            this.btn_Update.Location = new System.Drawing.Point(301, 707);
+            this.btn_Update.Location = new System.Drawing.Point(302, 707);
             this.btn_Update.Name = "btn_Update";
             this.btn_Update.Size = new System.Drawing.Size(131, 45);
             this.btn_Update.TabIndex = 48;
@@ -71,7 +72,7 @@
             this.btn_Delete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Delete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Delete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Delete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Delete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.btn_Delete.Font = new System.Drawing.Font("Segoe UI", 13.8F);
             this.btn_Delete.ForeColor = System.Drawing.Color.White;
             this.btn_Delete.Location = new System.Drawing.Point(4, 631);
@@ -87,10 +88,10 @@
             this.byn_Add.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.byn_Add.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.byn_Add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.byn_Add.FillColor = System.Drawing.Color.Green;
+            this.byn_Add.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.byn_Add.Font = new System.Drawing.Font("Segoe UI", 13.8F);
             this.byn_Add.ForeColor = System.Drawing.Color.White;
-            this.byn_Add.Location = new System.Drawing.Point(576, 631);
+            this.byn_Add.Location = new System.Drawing.Point(609, 631);
             this.byn_Add.Name = "byn_Add";
             this.byn_Add.Size = new System.Drawing.Size(131, 45);
             this.byn_Add.TabIndex = 46;
@@ -288,12 +289,30 @@
             this.dataGridView1.Size = new System.Drawing.Size(703, 502);
             this.dataGridView1.TabIndex = 34;
             // 
+            // btn_home
+            // 
+            this.btn_home.BorderRadius = 20;
+            this.btn_home.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_home.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_home.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_home.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_home.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.btn_home.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.btn_home.ForeColor = System.Drawing.Color.White;
+            this.btn_home.Location = new System.Drawing.Point(913, 707);
+            this.btn_home.Name = "btn_home";
+            this.btn_home.Size = new System.Drawing.Size(131, 45);
+            this.btn_home.TabIndex = 49;
+            this.btn_home.Text = "الرجوع";
+            this.btn_home.Click += new System.EventHandler(this.btn_home_Click);
+            // 
             // Emp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(1052, 759);
+            this.Controls.Add(this.btn_home);
             this.Controls.Add(this.btn_Update);
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.byn_Add);
@@ -333,5 +352,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private Guna.UI2.WinForms.Guna2Button btn_home;
     }
 }

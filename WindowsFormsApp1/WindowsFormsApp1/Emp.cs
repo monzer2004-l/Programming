@@ -16,5 +16,12 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void btn_home_Click(object sender, EventArgs e)
+        {
+            var frm = new Main();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

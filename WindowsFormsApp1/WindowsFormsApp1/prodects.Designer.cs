@@ -48,6 +48,7 @@
             this.btn_Update = new Guna.UI2.WinForms.Guna2Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.btn_home = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -106,7 +107,7 @@
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(937, 145);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 57);
@@ -116,7 +117,7 @@
             // 
             // label5
             // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(926, 202);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(119, 57);
@@ -126,7 +127,7 @@
             // 
             // label6
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(937, 259);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(108, 57);
@@ -280,7 +281,7 @@
             this.byn_Add.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.byn_Add.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.byn_Add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.byn_Add.FillColor = System.Drawing.Color.Green;
+            this.byn_Add.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.byn_Add.Font = new System.Drawing.Font("Segoe UI", 13.8F);
             this.byn_Add.ForeColor = System.Drawing.Color.White;
             this.byn_Add.Location = new System.Drawing.Point(576, 626);
@@ -296,7 +297,7 @@
             this.btn_Delete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Delete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Delete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Delete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Delete.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
             this.btn_Delete.Font = new System.Drawing.Font("Segoe UI", 13.8F);
             this.btn_Delete.ForeColor = System.Drawing.Color.White;
             this.btn_Delete.Location = new System.Drawing.Point(4, 626);
@@ -312,7 +313,7 @@
             this.btn_Update.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btn_Update.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btn_Update.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Update.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btn_Update.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.btn_Update.Font = new System.Drawing.Font("Segoe UI", 13.8F);
             this.btn_Update.ForeColor = System.Drawing.Color.White;
             this.btn_Update.Location = new System.Drawing.Point(301, 702);
@@ -323,7 +324,7 @@
             // 
             // label9
             // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(937, 373);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(108, 57);
@@ -333,7 +334,7 @@
             // 
             // label10
             // 
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(937, 316);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(108, 57);
@@ -341,12 +342,30 @@
             this.label10.Text = ":الكمية";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // btn_home
+            // 
+            this.btn_home.BorderRadius = 20;
+            this.btn_home.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_home.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_home.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_home.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_home.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.btn_home.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            this.btn_home.ForeColor = System.Drawing.Color.White;
+            this.btn_home.Location = new System.Drawing.Point(920, 702);
+            this.btn_home.Name = "btn_home";
+            this.btn_home.Size = new System.Drawing.Size(131, 45);
+            this.btn_home.TabIndex = 34;
+            this.btn_home.Text = "الرجوع";
+            this.btn_home.Click += new System.EventHandler(this.btn_home_Click);
+            // 
             // prodects
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(1052, 759);
+            this.Controls.Add(this.btn_home);
             this.Controls.Add(this.btn_Update);
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.byn_Add);
@@ -394,5 +413,6 @@
         private Guna.UI2.WinForms.Guna2Button btn_Update;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private Guna.UI2.WinForms.Guna2Button btn_home;
     }
 }
