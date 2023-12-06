@@ -240,6 +240,7 @@
             this.btn_login.Size = new System.Drawing.Size(180, 45);
             this.btn_login.TabIndex = 31;
             this.btn_login.Text = "تسجيل الدخول";
+            this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // txt_Password
             // 

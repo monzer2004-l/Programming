@@ -26,5 +26,12 @@ namespace WindowsFormsApp1
         {
             
         }
+
+        private void btn_login_Click(object sender, EventArgs e)
+        {
+            var frm = new Main();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
