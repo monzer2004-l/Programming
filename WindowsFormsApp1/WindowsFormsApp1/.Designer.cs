@@ -37,12 +37,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.btn_Addemp);
             this.panel1.Controls.Add(this.btn_Reports);
             this.panel1.Controls.Add(this.btn_prodacts);
@@ -60,13 +62,14 @@
             this.btn_Addemp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Addemp.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Addemp.ForeColor = System.Drawing.Color.White;
-            this.btn_Addemp.Location = new System.Drawing.Point(111, 450);
+            this.btn_Addemp.Location = new System.Drawing.Point(111, 443);
             this.btn_Addemp.Name = "btn_Addemp";
             this.btn_Addemp.Size = new System.Drawing.Size(151, 46);
             this.btn_Addemp.TabIndex = 4;
             this.btn_Addemp.Text = "اضافة موظف";
             this.btn_Addemp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_Addemp.UseVisualStyleBackColor = true;
+            this.btn_Addemp.Click += new System.EventHandler(this.btn_Addemp_Click);
             // 
             // btn_Reports
             // 
@@ -74,7 +77,7 @@
             this.btn_Reports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Reports.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Reports.ForeColor = System.Drawing.Color.White;
-            this.btn_Reports.Location = new System.Drawing.Point(111, 367);
+            this.btn_Reports.Location = new System.Drawing.Point(111, 362);
             this.btn_Reports.Name = "btn_Reports";
             this.btn_Reports.Size = new System.Drawing.Size(151, 46);
             this.btn_Reports.TabIndex = 3;
@@ -88,7 +91,7 @@
             this.btn_prodacts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_prodacts.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_prodacts.ForeColor = System.Drawing.Color.White;
-            this.btn_prodacts.Location = new System.Drawing.Point(111, 294);
+            this.btn_prodacts.Location = new System.Drawing.Point(111, 289);
             this.btn_prodacts.Name = "btn_prodacts";
             this.btn_prodacts.Size = new System.Drawing.Size(151, 38);
             this.btn_prodacts.TabIndex = 2;
@@ -103,7 +106,7 @@
             this.btn_categor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_categor.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_categor.ForeColor = System.Drawing.Color.White;
-            this.btn_categor.Location = new System.Drawing.Point(111, 219);
+            this.btn_categor.Location = new System.Drawing.Point(111, 216);
             this.btn_categor.Name = "btn_categor";
             this.btn_categor.Size = new System.Drawing.Size(151, 38);
             this.btn_categor.TabIndex = 1;
@@ -160,6 +163,21 @@
             this.label1.Text = "M    M      tore";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(102, 524);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(160, 46);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "تسجيل الخروج";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -174,7 +192,6 @@
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -192,5 +209,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

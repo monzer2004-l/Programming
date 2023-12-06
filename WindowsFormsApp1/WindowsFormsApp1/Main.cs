@@ -58,5 +58,19 @@ namespace WindowsFormsApp1
             frm.Show();
             this.Hide();
         }
+
+        private void btn_Addemp_Click(object sender, EventArgs e)
+        {
+            var frm =new prodects();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var frm =new Login();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
